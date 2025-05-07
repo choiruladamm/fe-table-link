@@ -26,7 +26,7 @@ export const Nav: React.FC<NavProps> = ({}) => {
 					))}
 				</div>
 				<Link
-					to='https://github.com/choiruladamm/vite-ts-tailwind-starter'
+					to='https://github.com/choiruladamm/fe-table-link'
 					target='_blank'
 				>
 					<Icons.gitHub className='h-5 w-5' />
