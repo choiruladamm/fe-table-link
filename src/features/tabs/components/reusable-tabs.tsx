@@ -23,10 +23,10 @@ export const ReusableTabs: React.FC<ReusableTabsProps> = ({
 					<button
 						key={index}
 						onClick={() => setActiveIndex(index)}
-						className={`border-b-2 pb-1 text-sm transition ${
+						className={`relative px-3 py-1 font-mono text-base tracking-wide transition-all duration-200 ${
 							activeIndex === index
-								? 'border-blue-600 font-semibold text-blue-600'
-								: 'border-transparent text-gray-500'
+								? 'text-blue-600 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:rounded-full after:bg-blue-600'
+								: 'text-gray-400 hover:text-gray-600'
 						}`}
 					>
 						{tab.label}
