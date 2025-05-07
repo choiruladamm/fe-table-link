@@ -69,7 +69,7 @@ const DataTable: React.FC<DataTableProps> = ({ users }) => {
 				<table className='min-w-full text-sm text-gray-800'>
 					<thead className='border-b bg-gray-50 text-left'>
 						<tr>
-							<th className='w-12 px-4 py-3'>Nomor</th>
+							<th className='w-12 px-4 py-3'>No.</th>
 							<th className='px-4 py-3'>Name</th>
 							<th className='w-24 px-4 py-3'>Age</th>
 							<th className='px-4 py-3'>Occupation</th>
